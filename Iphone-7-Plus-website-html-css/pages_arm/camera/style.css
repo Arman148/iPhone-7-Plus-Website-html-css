@@ -1,0 +1,48 @@
+section {
+    margin-top: 80px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#photos {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.two_photo {
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.two_photo img {
+    width: 50%;
+    height: auto;
+    margin: 5px;
+}
+
+img {
+    width: 80%;
+    height: auto;
+}
+
+hr {
+    width: 100%;
+    box-shadow: 0 0px 10px rgba(38, 92, 94, 0.2);    
+}
+
+.i {
+    transition: 1s; /* Время эффекта */
+   }
+   .i:hover {
+    transform: scale(1.2); /* Увеличиваем масштаб */
+   }
+
